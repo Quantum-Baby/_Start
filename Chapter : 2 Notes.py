@@ -1,9 +1,9 @@
 _Start - 01 - Variable and Datatype
 
-## Variable - Variable is like a container and it can use for store data in memory somewhere. 
+# Variable - Variable is like a container and it can use for store data in memory somewhere 
 # Note : Variables are case sensitives, Eg - A and a
-  ## Keyword - Reserved word in Python
-  ## Identifires - class/function/variable name
+# Keyword - Reserved word in Python
+# Identifires - class/function/variable name
   
 a = 'Naveen'
 b = '''Tarun
@@ -25,14 +25,16 @@ print(b)
 print(c)
 print(d)
 print(e)
+
 # Printing the type of variable
 print(type(a))
+print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
 
 
-### 02. Operators
+## 02. Operators
 
 # Arithmetic operator
 
