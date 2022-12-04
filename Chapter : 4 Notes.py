@@ -73,27 +73,27 @@ print(t.index(5))
 
 # Question
 # 01 Create a programme where someone can give 7 fruits names 
-# f1 = input("Enter Fruit Number 1 : ")
-# f2 = input("Enter Fruit Number 2 : ")
-# f3 = input("Enter Fruit Number 3 : ")
-# f4 = input("Enter Fruit Number 5 : ")
-# f5 = input("Enter Fruit Number 5 : ")
-# f6 = input("Enter Fruit Number 6 : ")
-# f7 = input("Enter Fruit Number 7 : ")
-# myFruitsList = [f1,f2,f3,f4,f5,f6,f7]
-# print(myFruitsList)
+f1 = input("Enter Fruit Number 1 : ")
+f2 = input("Enter Fruit Number 2 : ")
+f3 = input("Enter Fruit Number 3 : ")
+f4 = input("Enter Fruit Number 5 : ")
+f5 = input("Enter Fruit Number 5 : ")
+f6 = input("Enter Fruit Number 6 : ")
+f7 = input("Enter Fruit Number 7 : ")
+myFruitsList = [f1,f2,f3,f4,f5,f6,f7]
+print(myFruitsList)
 
 # 02 create a list of 6 student marks in short
-# m2 = int(input("Enter Marks of studen number 2 : "))
-# m1 = int(input("Enter Marks of studen number 1 : "))
-# m3 = int(input("Enter Marks of studen number 3 : "))
-# m4 = int(input("Enter Marks of studen number 5 : "))
-# m5 = int(input("Enter Marks of studen number 5 : "))
-# m6 = int(input("Enter Marks of studen number 6 : "))
+m2 = int(input("Enter Marks of studen number 2 : "))
+m1 = int(input("Enter Marks of studen number 1 : "))
+m3 = int(input("Enter Marks of studen number 3 : "))
+m4 = int(input("Enter Marks of studen number 4 : "))
+m5 = int(input("Enter Marks of studen number 5 : "))
+m6 = int(input("Enter Marks of studen number 6 : "))
 
-# myList = [m1,m2,m3,m4,m5,m6]
-# myList.sort()
-# print(myList)
+myList = [m1,m2,m3,m4,m5,m6]
+myList.sort()
+print(myList)
 
 # 03 prograame in list for sum for 4 numbers
 a = [2,44,3,55]
@@ -101,5 +101,5 @@ print(a[0]+a[1]+a[2]+a[3])
 print(sum(a))
 
 
-# b = (7, 0, 8, 0, 0, 1)
-# print(b.count(0))
+b = (7, 0, 8, 0, 0, 1)
+print(b.count(0))
