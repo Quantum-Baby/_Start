@@ -116,4 +116,42 @@ def add(*b): # Length
 add(7,11,1,2,3,88)
 
 
+# We have another Argument - Keyworded Variable Length Arguments in Python | **kwargs
 
+def person(name, *data):
+    print(name)
+    print(data)
+
+person("Tarun", 23, "India", 909889)
+
+#  ***Output***
+Tarun
+(23, 'India', 909889)  # But here we dont know about (23, 'India', 909889) that what they represent.
+
+# Accurately work with -> Keyworded Variable Length Arguments in Python | **kwargs
+
+def person(name, **data):
+    print(name)
+    print(data)
+
+person("Tarun", age = 23, Country = "India", Phone_No = 909889)
+
+#  ***Output***
+Tarun
+{'age': 23, 'Country': 'India', 'Phone_No': 909889}
+
+# Using Loop -> Keyworded Variable Length Arguments in Python | **kwargs
+
+def person(name, **data):
+    print(name)
+
+    for i,j in data.items():
+        print(i, j)
+
+person("Tarun", age = 23, Country = "India", Phone_No = 909889)
+
+#  ***Output***
+Tarun
+age 23
+Country India
+Phone_No 909889
